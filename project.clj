@@ -5,7 +5,8 @@
         :url "https://github.com/fhofherr/lein-xjc"}
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[com.sun.xml.bind/jaxb-xjc "2.2.7"]]
+  :dependencies [[org.glassfish.jaxb/jaxb-xjc "2.2.11"]
+                 [org.glassfish.jaxb/jaxb-runtime "2.2.11"]]
   :eval-in-leiningen true
   :profiles {:dev {:source-paths ["dev"]
                    :dependencies [[midje "1.6.2"]
