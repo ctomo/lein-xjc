@@ -10,7 +10,7 @@ A Leiningen plugin that uses xjc to compile Java bindings from XML Schema files.
 
 ## Usage
 
-Put `[org.clojars.ctomo/lein-xjc "0.2.1"]` into the `:plugins` vector of your
+Put `[org.clojars.ctomo/lein-xjc "0.2.2"]` into the `:plugins` vector of your
 project definition.
 
 Additionally configure the plugin by adding an `:xjc-plugin` entry to your

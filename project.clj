@@ -1,4 +1,4 @@
-(defproject org.clojars.ctomo/lein-xjc "0.2.1"
+(defproject org.clojars.ctomo/lein-xjc "0.2.2"
   :description "Call xjc from leiningen."
   :url "https://github.com/ctomo/lein-xjc"
   :scm {:name "git"
@@ -6,7 +6,8 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.glassfish.jaxb/jaxb-xjc "2.3.0"]
-                 [org.glassfish.jaxb/jaxb-runtime "2.3.0"]]
+                 [org.glassfish.jaxb/jaxb-runtime "2.3.0"]
+                 [javax.activation/javax.activation-api "1.2.0"]]
   :eval-in-leiningen true
   :profiles {:dev {:source-paths ["dev"]
                    :dependencies [[midje "1.6.3"]
